@@ -11,15 +11,15 @@
   </prolog>
    
   <taskbody>
-    <prereq>In order to choose your generic container, you will need the following:
+    <prereq>In order to use SPAN, you will need the following:
       <ul>
         <li>Text editor</li>
         <li>HTML document</li>
-        <li>Text selection you would like to "contain"</li>
+        <li>Selection from document that you would like to "contain"</li>
       </ul>
     </prereq>
     <context>
-      Clean the machine only when it's dirty... duh!
+      It is important that you use the correct generic inline container
     </context>
     <steps>
       <step>

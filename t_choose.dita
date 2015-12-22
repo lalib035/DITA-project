@@ -4,7 +4,7 @@
   <title>Choosing your Generic Container</title>
 
   <shortdesc>
-    HTML has two types of generic containers: an inline generic container (SPAN) and a block-level generic container (DIV). The generic container you choose will depend on the type of information you want to contain.
+    HTML has two types of generic containers: an in-line generic container (SPAN) and a block-level generic container (DIV). The generic container you choose will depend on the type of information you want to contain.
   </shortdesc>
   <prolog>
     <author type="creator">J. LaLiberte</author>
@@ -15,19 +15,11 @@
       <ul>
         <li>Text editor</li>
         <li>HTML document</li>
-        <li>Text selection you would like to "contain"</li>
+        <li>Selection from document that you would like to "contain"</li>
       </ul>
     </prereq>
     <context>
-      Clean the machine only when it's dirty... duh!
+      Generic containers allow you to select sections of content (often text). You should only use generic containers if there is no applicable semantic element. Unless otherwise defined in a CSS stylesheet, SPAN and DIV don't change the visual presentation of their selection.
     </context>
-    <steps>
-      <step>
-        <cmd>Prepare the machine</cmd>
-      </step>
-      <step>
-        <cmd>Clean and clean more</cmd>
-      </step>
-    </steps>
   </taskbody>
 </task>
