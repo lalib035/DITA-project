@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
+<task id="div">
+  <title>Using the Generic Container DIV</title>
+
+  <shortdesc>
+    If you want to contain "block-level" text, you should use the block-level generic container DIV.
+  </shortdesc>
+  <prolog>
+    <author type="creator">J. LaLiberte</author>
+  </prolog>
+   
+  <taskbody>
+    <prereq>In order to choose your generic container, you will need the following:
+      <ul>
+        <li>Text editor</li>
+        <li>HTML document</li>
+        <li>Text selection you would like to "contain"</li>
+      </ul>
+    </prereq>
+    <context>
+      Clean the machine only when it's dirty... duh!
+    </context>
+    <steps>
+      <step>
+        <cmd>Prepare the machine</cmd>
+      </step>
+      <step>
+        <cmd>Clean and clean more</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "/plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/map.dtd">
+<map id="generic-containers-topic-map">
+    <title>Manual for using generic containers in HTML</title>
+    <topicref href="t_choose.dita" collection-type="choice">
+    	<topicref href="t_span.dita"/>
+    	<topicref href="t_div.dita"/>
+    </topicref>
+    <topicref href="c_html_css.dita"/>
+    <topicref href="r_html.dita"/>
+</map>
