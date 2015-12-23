@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="div">
-  <title>Using the Generic Container DIV</title>
+  <title>Using the Generic Container &lt;div&gt;</title>
 
   <shortdesc>
     If you want to contain "block-level" text, you should use the block-level generic container DIV.
@@ -11,7 +11,7 @@
   </prolog>
    
   <taskbody>
-    <prereq>In order to use &lt;span&gt;, you will need the following:
+    <prereq>In order to use &lt;div&gt;, you will need the following:
       <ul>
         <li>Text editor</li>
         <li>HTML document</li>
@@ -21,11 +21,11 @@
       <ul>
 		  <li>Confirm that you have selected the appropriate generic container</li>
 		  <li>Confirm that there is not a semantic element that would better fit your purpose</li>
-		  <li>Determine how you want to identify your selection (“class" or “id" HTML attribute)</li>
+		  <li>Determine how you want to identify your selection ("class" or "id" HTML attribute)</li>
       </ul>
     </prereq>
     <context>
-      The “class” HTML attribute is used when you would like to apply the same grouping to multiple separate sections of the page. The “id” HTML attribute is for selecting unique content and should only be used once per page. Attributes can be added to the opening tag of an HTML element.
+      The "class" HTML attribute is used when you would like to apply the same grouping to multiple separate sections of the page. The "id" HTML attribute is for selecting unique content and should only be used once per page. Attributes can be added to the opening tag of an HTML element.
     </context>
     <steps>
       <step>
@@ -38,8 +38,7 @@
       <step>
         <cmd>Insert the closing &lt;div&gt; tag (&lt;/div&gt;) on a line after the last character of the area you want to select.</cmd>
         <stepxmp>
-        <codeblock>
-        &lt;div&gt;
+        <codeblock>&lt;div&gt;
 	Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
 &lt;/div&gt;
 		</codeblock>
