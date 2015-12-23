@@ -32,7 +32,7 @@
         <cmd>Insert the opening &lt;div&gt; tag (&lt;div&gt;) on a line before the first character of the area you want to select.</cmd>
         <stepxmp>
         <codeblock>&lt;div&gt;
-        Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.</codeblock>
+    Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.</codeblock>
         </stepxmp>
       </step>
       <step>
@@ -40,26 +40,26 @@
         <stepxmp>
         <codeblock>
         &lt;div&gt;
-			Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
-		&lt;/div&gt;
+	Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+&lt;/div&gt;
 		</codeblock>
         </stepxmp>
       </step>
       <step>
         <cmd>Add a class or id attribute to the opening tag.</cmd>
         <stepxmp>
-        <codeblock>&lt;div id=“"&gt;
-        Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
-        &lt;/div&gt;
+        <codeblock>&lt;div id=""&gt;
+	Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+&lt;/div&gt;
 		</codeblock>
         </stepxmp>
       </step>
       <step>
         <cmd>Choose and insert a selector title for your attribute.</cmd>
         <stepxmp>
-        <codeblock>&lt;div id=“first-paragraph"&gt;
-        Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
-        &lt;/div&gt;
+        <codeblock>&lt;div id="first-paragraph"&gt;
+	Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+&lt;/div&gt;
 		</codeblock>
         </stepxmp>
       </step>

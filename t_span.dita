@@ -38,11 +38,11 @@
       </step>
       <step>
 		<cmd>Add a class or id attribute to the opening tag.</cmd>
-		<stepxmp><codeblock>The quick &lt;span id=“"&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
+		<stepxmp><codeblock>The quick &lt;span id=""&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
       <step>
 		<cmd>Choose and insert a selector title for your attribute.</cmd>
-		<stepxmp><codeblock>The quick &lt;span id=“brown”&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
+		<stepxmp><codeblock>The quick &lt;span id="brown"&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
     </steps>
   </taskbody>
