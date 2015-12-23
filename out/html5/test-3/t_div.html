@@ -1,0 +1,94 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="task">
+<meta name="description" content="If you want to contain &#34;block-level&#34; text, you should use the block-level generic container DIV."><meta name="DC.Relation" scheme="URI" content="t_choose.html">
+<meta name="DC.Creator" content="J. LaLiberte">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="div">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Using the Generic Container DIV</title>
+</head>
+<body id="div">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Using the Generic Container DIV</h1>
+
+
+  
+  
+   
+  <div class="body taskbody"><p class="shortdesc">
+    If you want to contain "block-level" text, you should use the block-level generic container DIV.
+  </p>
+
+    <div class="section prereq p">In order to use &lt;span&gt;, you will need the following:
+      <ul class="ul">
+        <li class="li">Text editor</li>
+
+        <li class="li">HTML document</li>
+
+        <li class="li">Selection from document that you would like to "contain"</li>
+
+      </ul>
+
+      <p class="p">You should also:</p>
+
+      <ul class="ul">
+		  <li class="li">Confirm that you have selected the appropriate generic container</li>
+
+		  <li class="li">Confirm that there is not a semantic element that would better fit your purpose</li>
+
+		  <li class="li">Determine how you want to identify your selection (“class" or “id" HTML attribute)</li>
+
+      </ul>
+
+    </div>
+
+    <section class="section context">
+      The “class” HTML attribute is used when you would like to apply the same grouping to multiple separate sections of the page. The “id” HTML attribute is for selecting unique content and should only be used once per page. Attributes can be added to the opening tag of an HTML element.
+    </section>
+
+    <ol class="ol steps"><li class="li step stepexpand">
+        <span class="ph cmd">Insert the opening &lt;div&gt; tag (&lt;div&gt;) on a line before the first character of the area you want to select.</span>
+        <div class="itemgroup stepxmp">
+        &lt;div&gt;
+			Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+        </div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Insert the closing &lt;div&gt; tag (&lt;/div&gt;) on a line after the last character of the area you want to select.</span>
+        <div class="itemgroup stepxmp">
+        &lt;div&gt;
+			Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+		&lt;/div&gt;
+        </div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Add a class or id attribute to the opening tag.</span>
+        <div class="itemgroup stepxmp">
+        &lt;div id=“"&gt;
+Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+		&lt;/div&gt;
+        </div>
+      </li>
+<li class="li step stepexpand">
+        <span class="ph cmd">Choose and insert a selector title for your attribute.</span>
+        <div class="itemgroup stepxmp">
+        &lt;div id=“first-paragraph"&gt;
+			Once upon a time… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ullamcorper facilisis risus, et malesuada magna mollis nec. Quisque varius sem odio, in fermentum eros varius non. Pellentesque eu lectus tempus odio porta suscipit. Vestibulum consectetur accumsan condimentum.
+		&lt;/div&gt;
+        </div>
+      </li>
+</ol>
+
+  </div>
+
+<nav role="navigation" class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="t_choose.html" title="HTML has two types of generic containers: an in-line generic container (SPAN) and a block-level generic container (DIV). The generic container you choose will depend on the type of information you want to contain.">Choosing your Generic Container</a></div>
+</div>
+</nav></article></main></body>
+</html>

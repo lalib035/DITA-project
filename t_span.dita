@@ -30,19 +30,19 @@
     <steps>
       <step>
         <cmd>Insert the opening &lt;span&gt; tag (&lt;span&gt;) before the first character of the area you want to select.</cmd>
-        <stepxmp>The quick &lt;span&gt;brown fox jumped over the lazy dog.</stepxmp>
+        <stepxmp><codeblock>The quick &lt;span&gt;brown fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
       <step>
         <cmd>Insert the closing &lt;span&gt; tag (&lt;/span&gt;) after the last character of the area you want to select.</cmd>
-        <stepxmp>The quick &lt;span&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
+        <stepxmp><codeblock>The quick &lt;span&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
       <step>
 		<cmd>Add a class or id attribute to the opening tag.</cmd>
-		<stepxmp>The quick &lt;span id=“&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
+		<stepxmp><codeblock>The quick &lt;span id=“"&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
       <step>
 		<cmd>Choose and insert a selector title for your attribute.</cmd>
-		<stepxmp>The quick &lt;span id=“brown”&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
+		<stepxmp><codeblock>The quick &lt;span id=“brown”&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</codeblock></stepxmp>
       </step>
     </steps>
   </taskbody>
