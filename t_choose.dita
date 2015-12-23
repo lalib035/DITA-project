@@ -4,7 +4,7 @@
   <title>Choosing your Generic Container</title>
 
   <shortdesc>
-    HTML has two types of generic containers: an in-line generic container (SPAN) and a block-level generic container (DIV). The generic container you choose will depend on the type of information you want to contain.
+    HTML has two types of generic containers: an in-line generic container (&lt;span&gt;) and a block-level generic container (&lt;div&gt;). The generic container you choose will depend on the type of information you want to contain.
   </shortdesc>
   <prolog>
     <author type="creator">J. LaLiberte</author>
@@ -19,7 +19,7 @@
       </ul>
     </prereq>
     <context>
-      Generic containers allow you to select sections of content (often text). You should only use generic containers if there is no applicable semantic element. Unless otherwise defined in a CSS stylesheet, SPAN and DIV don't change the visual presentation of their selection.
+      Generic containers allow you to select sections of content (often text). You should only use generic containers if there is no applicable semantic element. Unless otherwise defined in a CSS stylesheet, &lt;span&gt; and &lt;div&gt; don't change the visual presentation of their selection.
     </context>
   </taskbody>
 </task>

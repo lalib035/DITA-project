@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="compare" xml:lang="en-us">
   <title>Generic Container Comparison &amp; Examples</title>
-  <shortdesc>HTML has two types of generic containers: in-line (SPAN) and block-level (DIV). Examples of their different uses may help you choose the proper generic container.</shortdesc>
+  <shortdesc>HTML has two types of generic containers: in-line (&lt;span&gt;) and block-level (&lt;div&gt;). Examples of their different uses may help you choose the proper generic container.</shortdesc>
   <refbody>
   	<table>
 		<tgroup cols="3">
@@ -15,13 +15,13 @@
 			</thead>
 			<tbody>
 				<row>
-					<entry>SPAN</entry>
-					<entry>In-line generic container. SPAN should be used to contain small sections of content that do not stand alone.</entry>
+					<entry>&lt;span&gt;</entry>
+					<entry>In-line generic container. &lt;span&gt; should be used to contain small sections of content that do not stand alone.</entry>
 					<entry>A single letter in a word, a single word in a sentence, or a single sentence in a paragraph.</entry>
 				</row>
 				<row>
-					<entry>DIV</entry>
-					<entry>Block-level generic container. DIV should be used to contain larger blocks or complete sections of content.</entry>
+					<entry>&lt;div&gt;</entry>
+					<entry>Block-level generic container. &lt;div&gt; should be used to contain larger blocks or complete sections of content.</entry>
 					<entry>An entire paragraph, a section of a document.</entry>
 				</row>
 			</tbody>
