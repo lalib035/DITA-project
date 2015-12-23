@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/task.dtd">
 <task id="span">
-  <title>Using the Generic Container SPAN</title>
+  <title>Using the Generic Container &lt;span&gt;</title>
 
   <shortdesc>
     If you want to contain "in-line" text, you should use the in-line generic container SPAN.
@@ -11,22 +11,38 @@
   </prolog>
    
   <taskbody>
-    <prereq>In order to use SPAN, you will need the following:
+    <prereq>In order to use &lt;span&gt;, you will need the following:
       <ul>
         <li>Text editor</li>
         <li>HTML document</li>
         <li>Selection from document that you would like to "contain"</li>
       </ul>
+      <p>You should also:</p>
+      <ul>
+		  <li>Confirm that you have selected the appropriate generic container</li>
+		  <li>Confirm that there is not a semantic element that would better fit your purpose</li>
+		  <li>Determine how you want to identify your selection (“class" or “id" HTML attribute)</li>
+      </ul>
     </prereq>
     <context>
-      It is important that you use the correct generic inline container
+      The “class” HTML attribute is used when you would like to apply the same grouping to multiple separate sections of the page. The “id” HTML attribute is for selecting unique content and should only be used once per page. Attributes can be added to the opening tag of an HTML element.
     </context>
     <steps>
       <step>
-        <cmd>Prepare the machine</cmd>
+        <cmd>Insert the opening &lt;span&gt; tag (&lt;span&gt;) before the first character of the area you want to select.</cmd>
+        <stepxmp>The quick &lt;span&gt;brown fox jumped over the lazy dog.</stepxmp>
       </step>
       <step>
-        <cmd>Clean and clean more</cmd>
+        <cmd>Insert the closing &lt;span&gt; tag (&lt;/span&gt;) after the last character of the area you want to select.</cmd>
+        <stepxmp>The quick &lt;span&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
+      </step>
+      <step>
+		<cmd>Add a class or id attribute to the opening tag.</cmd>
+		<stepxmp>The quick &lt;span id=“&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
+      </step>
+      <step>
+		<cmd>Choose and insert a selector title for your attribute.</cmd>
+		<stepxmp>The quick &lt;span id=“brown”&gt;brown&lt;/span&gt; fox jumped over the lazy dog.</stepxmp>
       </step>
     </steps>
   </taskbody>
