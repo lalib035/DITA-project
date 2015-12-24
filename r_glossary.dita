@@ -37,6 +37,7 @@
 				<row>
 					<entry>HTML tag</entry>
 					<entry>The HTML code surrounded in brackets (&lt; and &gt;); can be an opening tag (&lt; &gt;) or a closing tag (&lt;/ &gt;)</entry>
+					<!-- lines element was the recommended br DITA stand-in (http://forums.xmetal.com/index.php?topic=243.0), even if it's not necessarily semantic -->
 					<entry><lines>Opening tag: &lt;span&gt;
 					Closing tag: &lt;/span&gt;</lines></entry>
 				</row>
