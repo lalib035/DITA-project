@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="glossary" xml:lang="en-us">
+  <title>Term Glossary</title>
+  <shortdesc>HTML and CSS code is made up of a variety of components.
+  Semantically meaningful elements can be used one way, while semantically meaningless elements are used another. HTML elements can also include attributes, which work well with CSS formatting.</shortdesc>
+  <refbody>
+  	<table>
+		<tgroup cols="3">
+			<thead>
+				<row>
+				<entry colname="COLSPEC0" valign="top">Term</entry>
+				<entry colname="COLSPEC1" valign="top">Definition</entry>
+				<entry colname="COLSPEC2" valign="top">Example</entry>
+				</row>
+			</thead>
+			<tbody>
+				<row>
+					<entry>Semantically meaningful element</entry>
+					<entry>An HTML element that gives its contents additional meaning</entry>
+					<entry>&lt;em&gt; or &lt;nav&gt;</entry>
+				</row>
+				<row>
+					<entry>Semantically meaningless element/generic container</entry>
+					<entry>An HTML element that groups its contents without adding additional meaning</entry>
+					<entry>&lt;span&gt;, &lt;div&gt;</entry>
+				</row>
+				<row>
+					<entry>In-line element</entry>
+					<entry>An HTML element that groups a small amount of content within a line of HTML</entry>
+					<entry>&lt;span&gt; or &lt;em&gt;</entry>
+				</row>
+				<row>
+					<entry>Block-level element</entry>
+					<entry>An HTML element that groups larger amounts of HTML code; often this code would be surrounded by line breaks</entry>
+					<entry>&lt;div&gt; or &lt;article&gt;</entry>
+				</row>
+				<row>
+					<entry>HTML tag</entry>
+					<entry>The HTML code surrounded in brackets (&lt; and &gt;); can be an opening tag &lt;&gt; or a closing tag &lt;/&gt;</entry>
+					<entry>&lt;span&gt;</entry>
+				</row>
+				<row>
+					<entry>HTML element</entry>
+					<entry>The opening and closing HTML tags and their contents</entry>
+					<entry>&lt;span&gt;blue&lt;/span&gt;</entry>
+				</row>
+				<row>
+					<entry>CSS selector</entry>
+					<entry>CSS that identifies (or "selects") what section of an HTML document to format</entry>
+					<entry><lines><b>p {</b>
+&#160;&#160;&#160;color: red;</lines></entry>
+				</row>
+				<row>
+					<entry>CSS property</entry>
+					<entry>CSS that defines what kind of formatting to apply to the selected section</entry>
+					<entry><lines>p {
+&#160;&#160;&#160;<b>color:</b> red;</lines></entry>
+				</row>
+				<row>
+					<entry>CSS value</entry>
+					<entry>CSS that states the specific result of this formatting</entry>
+					<entry><lines>p {
+&#160;&#160;&#160;color: <b>red;</b></lines></entry>
+				</row>
+			</tbody>
+		</tgroup>
+	</table>
+  </refbody>
+</reference>
