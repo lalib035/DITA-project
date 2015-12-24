@@ -1,0 +1,31 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="concept">
+<meta name="description" content="HTML has two types of elements: semantically meaningful elements and semantically meaningless elements. Proper use of these elements is essential to producing quality web content."><meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="semantics">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Semantics in HTML</title>
+</head>
+<body id="semantics">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+  <h1 class="title topictitle1" id="ariaid-title1">Semantics in HTML</h1>
+
+  
+  <div class="body conbody"><p class="shortdesc">HTML has two types of elements: semantically meaningful elements and semantically meaningless elements. Proper use of these elements is essential to producing quality web content.</p>
+
+    <p class="p">Semantic HTML refers to HTML elements that have meaning. This means that semantic elements don't just group content together—instead, semantic HTML elements also tell readers something about their contents. For example, the &lt;nav&gt; element tells users and their viewing devices that a particular group of links is the navigation bar. Semantically meaningless elements, like the generic containers &lt;span&gt; and &lt;div&gt;, are the rare HTML elements that don't automatically impart meaning on their contents. Generic containers simply group content together.</p>
+
+    <p class="p">Before Cascading Style Sheets (CSS) existed, web writers had to use Hypertext Markup Language (HTML) elements to format documents. CSS today allows web writers to separate content (written in HTML) from presentation (written in CSS). Because many HTML elements are semantic (and thus describe their contents), writers who try to style text using HTML can accidentally change the meaning of the text at the same time.</p>
+
+    <p class="p">An example of semantic element misuse is using the &lt;em&gt; element to italicize text in a reference section. &lt;em&gt; indicates that readers should emphasize a selection of text. Web browsers usually display the content of &lt;em&gt; elements as italicized text; however, there is a separate HTML element that should be used when web writers want to simply italicize, not emphasize, text: &lt;i&gt;. If a writer wanted a phrase to be italicized, and used the HTML element &lt;em&gt; to do so, he or she would also be telling readers to emphasize the text selection as they read. Instead of just formatting a references section to follow APA style by italicizing book titles, authors would be telling readers to read book titles differently. This misuse of elements becomes especially important when browsers render elements differently and users surf the web using screen readers.</p>
+
+    <p class="p">Generic containers are one way authors can avoid misusing semantic elements. If there isn't an element that fits the author's need, like an element that adds extra formatting to the first two paragraphs of text, authors can use generic containers—in this case, &lt;div&gt;—to group the desired content together so CSS presentation rules can be applied.</p>
+
+  </div>
+
+</article></main></body>
+</html>

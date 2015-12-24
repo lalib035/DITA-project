@@ -11,7 +11,7 @@
   </prolog>
    
   <taskbody>
-    <prereq conref="t_span.dita#span/prereq">In order to use this generic container, you will need the following:
+    <prereq id="prereq">In order to use this generic container, you will need the following:
       <ul>
         <li>Text editor</li>
         <li>HTML document</li>
