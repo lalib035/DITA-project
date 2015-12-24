@@ -4,7 +4,7 @@
   <title>Using the Generic Container &lt;span&gt;</title>
 
   <shortdesc>
-    If you want to contain "in-line" text, you should use the in-line generic container SPAN.
+    If you want to contain "in-line" text, you should use the in-line generic container &lt;span&gt;.
   </shortdesc>
   <prolog>
     <author type="creator">J. LaLiberte</author>

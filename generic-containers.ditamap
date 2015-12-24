@@ -5,9 +5,9 @@
     <topicref href="t_choose.dita" collection-type="choice">
     	<topicref href="t_span.dita"/>
     	<topicref href="t_div.dita"/>
+    	<topicref href="r_compare.dita"/>
     </topicref>
     <topicref href="c_html_css.dita"/>
     <topicref href="c_semantics.dita"/>
     <topicref href="r_glossary.dita"/>
-    <topicref href="r_compare.dita"/>
 </map>

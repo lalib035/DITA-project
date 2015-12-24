@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="glossary" xml:lang="en-us">
-  <title>Term Glossary</title>
-  <shortdesc>HTML and CSS code is made up of a variety of components.
-  Semantically meaningful elements can be used one way, while semantically meaningless elements are used another. HTML elements can also include attributes, which work well with CSS formatting.</shortdesc>
+  <title>HTML &amp; CSS Term Glossary</title>
+  <shortdesc>HTML and CSS code is made up of a variety of components. Understanding these terms is crucial to understanding generic containers.</shortdesc>
   <refbody>
   	<table>
 		<tgroup cols="3">
@@ -37,8 +36,9 @@
 				</row>
 				<row>
 					<entry>HTML tag</entry>
-					<entry>The HTML code surrounded in brackets (&lt; and &gt;); can be an opening tag &lt;&gt; or a closing tag &lt;/&gt;</entry>
-					<entry>&lt;span&gt;</entry>
+					<entry>The HTML code surrounded in brackets (&lt; and &gt;); can be an opening tag (&lt; &gt;) or a closing tag (&lt;/ &gt;)</entry>
+					<entry><lines>Opening tag: &lt;span&gt;
+					Closing tag: &lt;/span&gt;</lines></entry>
 				</row>
 				<row>
 					<entry>HTML element</entry>
@@ -49,19 +49,19 @@
 					<entry>CSS selector</entry>
 					<entry>CSS that identifies (or "selects") what section of an HTML document to format</entry>
 					<entry><lines><b>p {</b>
-&#160;&#160;&#160;color: red;</lines></entry>
+&#160;&#160;&#160;color: red;}</lines></entry>
 				</row>
 				<row>
 					<entry>CSS property</entry>
 					<entry>CSS that defines what kind of formatting to apply to the selected section</entry>
 					<entry><lines>p {
-&#160;&#160;&#160;<b>color:</b> red;</lines></entry>
+&#160;&#160;&#160;<b>color:</b> red;}</lines></entry>
 				</row>
 				<row>
 					<entry>CSS value</entry>
 					<entry>CSS that states the specific result of this formatting</entry>
 					<entry><lines>p {
-&#160;&#160;&#160;color: <b>red;</b></lines></entry>
+&#160;&#160;&#160;color: <b>red;}</b></lines></entry>
 				</row>
 			</tbody>
 		</tgroup>
